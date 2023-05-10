@@ -1,0 +1,92 @@
+{
+  "products": [
+    {
+      "name": "LED TV",
+      "description": "A high-end 4K LED TV with HDR and Dolby Vision support",
+      "technical_characteristics": {
+        "resolution": "3840 x 2160",
+        "refresh_rate": "120Hz",
+        "screen_size": "65 inches"
+      },
+      "price": 1499.99,
+      "quantity": 25
+    },
+    {
+      "name": "Smart Thermostat",
+      "description": "A programmable thermostat with Wi-Fi connectivity and smartphone app control",
+      "technical_characteristics": {
+        "connectivity": "Wi-Fi",
+        "sensors": "temperature, humidity",
+        "compatibility": "smart home devices"
+      },
+      "price": 199.99,
+      "quantity": 50
+    },
+    {
+      "name": "Robotic Vacuum",
+      "description": "An advanced robotic vacuum cleaner with multiple cleaning modes and smart mapping",
+      "technical_characteristics": {
+        "cleaning_modes": "auto, edge, spot",
+        "navigation": "smart mapping",
+        "battery_life": "up to 120 minutes"
+      },
+      "price": 299.99,
+      "quantity": 25
+    },
+    {
+      "name": "Wireless Earbuds",
+      "description": "True wireless earbuds with noise-cancelling and up to 8 hours of battery life",
+      "technical_characteristics": {
+        "connectivity": "Bluetooth 5.0",
+        "battery_life": "up to 8 hours",
+        "noise_cancellation": "active"
+      },
+      "price": 149.99,
+      "quantity": 75
+    },
+    {
+      "name": "Air Purifier",
+      "description": "A high-performance air purifier with HEPA filter and smart sensor technology",
+      "technical_characteristics": {
+        "filtration": "HEPA, activated carbon",
+        "coverage_area": "up to 500 sq. ft.",
+        "smart_features": "auto mode, smart sensor"
+      },
+      "price": 299.99,
+      "quantity": 50
+    },
+    {
+      "name": "Electric Scooter",
+      "description": "A lightweight electric scooter with a range of up to 18 miles and a top speed of 15 mph",
+      "technical_characteristics": {
+        "range": "up to 18 miles",
+        "top_speed": "15 mph",
+        "weight_capacity": "220 lbs"
+      },
+      "price": 499.99,
+      "quantity": 25
+    },
+    {
+      "name": "Smart Security Camera",
+      "description": "A high-resolution security camera with night vision and motion detection",
+      "technical_characteristics": {
+        "resolution": "1080p HD",
+        "night_vision": "infrared",
+        "motion_detection": "active"
+      },
+      "price": 129.99,
+      "quantity": 100
+    },
+    {
+      "name": "Electric Kettle",
+      "description": "A sleek and stylish electric kettle with temperature control and keep-warm function",
+      "technical_characteristics": {
+        "capacity": "1.7 liters",
+        "temperature_control": "adjustable",
+        "keep_warm": "yes"
+      },
+      "price": 79.99,
+      "quantity": 50
+    }
+  ]
+}
