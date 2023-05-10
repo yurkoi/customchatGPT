@@ -1,3 +1,5 @@
+import asyncio
+import openai_async
 import openai
 from pprint import pprint
 from promt_templates import system_chat_template
@@ -17,6 +19,13 @@ def chatbot(input):
         chat = openai.ChatCompletion.create(
             model="gpt-3.5-turbo", messages=messages
         )
+        # chat = await openai_async.chat_complete(OPENAI_KEY,
+        #                                         timeout=0.05,
+        #                                         payload={
+        #                                              "model": "gpt-3.5-turbo",
+        #                                              "messages": messages
+        #                                          })
+        # reply = chat.json()["choices"][0]["message"]
         reply = chat.choices[0].message.content
         messages.append({"role": "assistant", "content": reply})
         return reply
@@ -25,4 +34,5 @@ def chatbot(input):
 if __name__ == "__main__":
     while True:
         query = input("Query: ")
-        pprint(chatbot(query))
+        response = chatbot(query)
+        pprint(response)
